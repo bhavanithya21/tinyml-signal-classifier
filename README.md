@@ -46,7 +46,7 @@ pip install -r requirements.txt
 python src/generate_data.py
 python src/train_model.py
 ```
-Note: Running these scripts will create the data/ and model/ folders automatically in the project directory.
+> Note: Running these scripts will create the data/ and model/ folders automatically in the project directory.
 
 ### Convert model to TensorFlow Lite format:
 ```bash
@@ -71,6 +71,17 @@ You can install all dependencies using:
 ```bash
 pip install -r requirements.txt
 ```
+
+## Model Performance Comparison
+
+This section compares the TensorFlow Keras model and the TensorFlow Lite (TFLite) model in terms of accuracy and inference latency on the validation dataset.
+
+| Model           | Accuracy (%) | Average Inference Time per Sample (ms) |
+|-----------------|--------------|---------------------------------------|
+| Keras (TensorFlow) | 100       | 30.754                                  |
+| TensorFlow Lite  | 100        | 0.001                                   |
+
+> **Note:** The TFLite model is optimized for edge deployment, offering significantly faster inference with minimal accuracy loss, making it suitable for resource-constrained environments such as embedded IoT and telecom devices.
 
 ## Future Work
 
