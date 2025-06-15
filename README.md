@@ -56,7 +56,7 @@ python src/run_inference.py
 ```
 ## Requirements
 
-This project uses Python and requires the following libraries:
+This project uses Python 3.11.9 and requires the following libraries:
 
 - `numpy` – for numerical operations and signal generation
 - `matplotlib` – for visualizing synthetic signals
