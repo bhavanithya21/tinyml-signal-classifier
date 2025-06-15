@@ -16,9 +16,6 @@ In embedded applications such as telecommunications, IoT, and edge computing, li
 │   ├── run_inference.py         # Simulate edge inference on PC  
 │   ├── compare_models.py        # Compare Karas and TFLite model 
 │  
-├── notebooks/  
-│   └── visualize_signals.ipynb  # Plotting and understanding data  
-│  
 ├── README.md                    # Project description and instructions  
 ├── requirements.txt             # Python dependencies  
 └── model/                       # Stores trained and converted models  
