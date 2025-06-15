@@ -46,6 +46,8 @@ pip install -r requirements.txt
 python src/generate_data.py
 python src/train_model.py
 ```
+Note: Running these scripts will create the data/ and model/ folders automatically in the project directory.
+
 ### Convert model to TensorFlow Lite format:
 ```bash
 python src/convert_tflite.py
