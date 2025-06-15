@@ -14,6 +14,7 @@ In embedded applications such as telecommunications, IoT, and edge computing, li
 │   ├── train_model.py           # Train a small model (Keras)  
 │   ├── convert_tflite.py        # Convert to TFLite + quantize  
 │   ├── run_inference.py         # Simulate edge inference on PC  
+│   ├── compare_models.py        # Compare Karas and TFLite model 
 │  
 ├── notebooks/  
 │   └── visualize_signals.ipynb  # Plotting and understanding data  
@@ -55,6 +56,10 @@ python src/convert_tflite.py
 ### Run inference with the TFLite model:
 ```bash
 python src/run_inference.py
+```
+### Run Comparison for Karas and TFLite Model:
+```bash
+python src/compare_models.py
 ```
 ## Requirements
 
